@@ -1,0 +1,10 @@
+[Unit]
+Description=Native headers
+
+[Service]
+ExecStart=/usr/bin/native-headers
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
